@@ -1,0 +1,6 @@
+@media (min-width: 569px) {
+  .footer__row{
+    text-align: center;
+    justify-content: right;
+  }
+}

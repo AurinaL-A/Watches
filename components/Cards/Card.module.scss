@@ -1,0 +1,593 @@
+.Card{
+    max-width: 276px;
+    height: 375px;
+}
+.textdivs{
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    font-family: "Epilogue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    color: #141414;
+}
+.textprice{
+    padding-top: 4px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: -0.02em;
+    color: rgba(20, 20, 20, 0.5);
+}
+.modal {
+
+    .modal_content {
+        display: flex;
+        width: 824px;
+        height: 614px;
+    }
+
+    .modal_back {
+        z-index: 8;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba($color: #a1a1a1, $alpha: .5);
+        backdrop-filter: blur(2px);
+    }
+
+    .flex {
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        z-index: 9;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 904px;
+        height: 694px;
+        background-color: #fff;
+        padding: 40px;
+    }
+
+    .info {
+        width: 276px;
+        height: 375px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: auto;
+        margin-right: 40px;
+    }
+
+    .title {
+        color: #000;
+        font-weight: 400;
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    form {
+        width: 508px;
+        height: 614px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .haract {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        list-style: none;
+        color: #000000;
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    .inputs {
+        width: 508px;
+        height: 72px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .inputs input {
+        border: 1px solid rgba(20, 20, 20, 0.5);
+        border-radius: 8px;
+        padding: 12px 16px;
+        width: 508px;
+        height: 42px;
+        margin-top: 12px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 112%;
+        letter-spacing: -0.02em;
+        color: rgba(20, 20, 20, 0.5);
+        font-family: "Epilogue", sans-serif;
+    }
+
+    .coment {
+        margin-top: 12px;
+        border: 1px solid rgba(20, 20, 20, 0.5);
+        border-radius: 8px;
+        padding: 12px 16px;
+        width: 508px;
+        height: 166px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 112%;
+        letter-spacing: -0.02em;
+        color: rgba(20, 20, 20, 0.5);
+        font-family: "Epilogue", sans-serif;
+        resize: none;
+    }
+
+    .comfotr {
+        input {
+            margin-left: 10px;
+        }
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        list-style: none;
+        z-index: 10;
+        flex: 1;
+        color: #000000;
+        font-size: 30px;
+        align-items: center;
+
+    }
+}
+.aligh{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn_exit {
+    display: flex;
+    align-items: center;
+    cursor: pointer; 
+    border-radius: 10px;
+    border: none;
+    position: fixed;
+    top: 25%;
+    right: 27%;
+    z-index: 10;
+    font-weight: 400;
+    font-size: 30px;
+   
+}
+
+.btn_ext{
+    background-color: transparent;
+    width: 24px;
+    height: 24px;
+    cursor: pointer; 
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+}
+
+
+.submit {
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.submit p {
+    font-family: "Epilogue", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: -0.02em;
+    color: rgba(20, 20, 20, 0.4);
+}
+
+.submit_btn {
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 18px 222px;
+    width: 507px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-family: "Epilogue", sans-serif;
+    background-color: #1E2827;
+    border: 0;
+    transform: scale(1);
+    transition: 0.7s;
+}
+
+.submit_btn:hover {
+    transform: scale(1.1);
+}
+
+.price {
+    color: #000;
+    font-weight: 400;
+    font-size: 30px;
+}
+@media(max-width: 2633px) {
+    .modal {
+        .btn_exit {
+            display: flex;
+            align-items: center;
+            background-color: transparent;
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            position: fixed;
+            top: 25%;
+            right: 34%;
+            z-index: 10;
+            font-weight: 400;
+            font-size: 30px;
+            border-radius: 10px;
+            border: none;
+        }
+    }
+
+}
+@media(max-width: 1933px) {
+    .modal {
+        .btn_exit {
+            display: flex;
+            align-items: center;
+            background-color: transparent;
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            position: fixed;
+            top: 15%;
+            right: 28%;
+            z-index: 10;
+            font-weight: 400;
+            font-size: 30px;
+            border-radius: 10px;
+            border: none;
+        }
+    }
+
+}
+@media(max-width: 1633px) {
+    .modal {
+        .btn_exit {
+            display: flex;
+            align-items: center;
+            background-color: transparent;
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            position: fixed;
+            top: 25%;
+            right: 22%;
+            z-index: 10;
+            font-weight: 400;
+            font-size: 30px;
+            border-radius: 10px;
+            border: none;
+        }
+    }
+
+}
+@media(max-width: 1433px) {
+    .modal {
+        .btn_exit {
+            display: flex;
+            align-items: center;
+            background-color: transparent;
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            position: fixed;
+            top: 15%;
+            right: 19%;
+            z-index: 10;
+            font-weight: 400;
+            font-size: 30px;
+            border-radius: 10px;
+            border: none;
+        }
+    }
+
+}
+
+@media(max-width: 1300px) {
+    .modal {
+        .btn_exit {
+            display: flex;
+            align-items: center;
+            background-color: transparent;
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            position: fixed;
+            top: 20%;
+            right: 16%;
+            z-index: 10;
+            font-weight: 400;
+            font-size: 30px;
+            border-radius: 10px;
+            border: none;
+        }
+    }
+
+}
+
+@media(max-width: 1100px) {
+    .modal {
+        .btn_exit {
+            display: flex;
+            align-items: center;
+            background-color: transparent;
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            position: fixed;
+            top: 15%;
+            right: 10%;
+            z-index: 10;
+            font-weight: 400;
+            font-size: 30px;
+            border-radius: 10px;
+            border: none;
+        }
+    }
+
+    .Card {
+        width: 336px;
+        height: 410px;
+        justify-content: center;
+    }
+
+}
+
+@media(max-width: 900px) {
+    .modal {
+        .btn_exit {
+            display: flex;
+            align-items: center;
+            background-color: transparent;
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            position: fixed;
+            top: 15%;
+            left: 87%;
+            z-index: 10;
+            font-weight: 400;
+            font-size: 30px;
+            border-radius: 10px;
+            border: none;
+        }
+
+        .inputs {
+            width: 368px;
+        }
+
+        .submit_btn {
+            width: 368px;
+            padding: 0;
+        }
+
+        .submit p {
+            width: 368px;
+        }
+
+        .flex {
+            width: 744px;
+            height: 670px;
+        }
+
+        .info {
+            width: 276px;
+            height: 375px;
+            margin-right: 20px;
+        }
+
+        form {
+            width: 368px;
+            height: 590px;
+        }
+        
+    }
+    .Card {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+}
+
+@media(max-width: 768px) {
+    .modal {
+        .btn_exit {
+            display: flex;
+            align-items: center;
+            background-color: transparent;
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            position: fixed;
+            top: 6%;
+            left: 75%;
+            z-index: 10;
+            font-weight: 400;
+            font-size: 30px;
+            border-radius: 10px;
+            border: none;
+        }
+        .btn_ext{
+            position: relative;
+            bottom: 450px;
+            left: 100px;
+        }
+
+
+        .inputs {
+            width: 295px;
+            height: 68px;
+        }
+
+        .submit_btn {
+            width: 295px;
+            padding: 0;
+        }
+
+        .submit p {
+            width: 295px;
+        }
+
+        .flex {
+            width: 535px;
+            height: 1073px;
+            flex-wrap: wrap;
+            padding: 0;
+        }
+
+        .info {
+            width: 276px;
+            height: 375px;
+            margin-right: 0;
+            margin-bottom: 40px;
+        }
+
+        form {
+            width: 295px;
+            height: 578px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    }
+        .Card {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+}
+@media(max-width: 600px) {
+    .modal {
+        .btn_exit {
+            display: flex;
+            align-items: center;
+            background-color: transparent;
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            position: fixed;
+            top: 6%;
+            left: 74%;
+            z-index: 10;
+            font-weight: 400;
+            font-size: 30px;
+            border-radius: 10px;
+            border: none;
+        }
+        .btn_ext{
+            position: relative;
+            bottom: 450px;
+            left: 100px;
+        }
+    }
+}
+
+@media(max-width: 500px) {
+    .modal {
+        .btn_exit {
+            display: flex;
+            align-items: center;
+            background-color: transparent;
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            position: fixed;
+            top: 6%;
+            left: 74%;
+            z-index: 10;
+            font-weight: 400;
+            font-size: 30px;
+            border-radius: 10px;
+            border: none;
+        }
+        .btn_ext{
+            position: relative;
+            bottom: 450px;
+            left: 80px;
+        }
+    }
+}
+
+@media(max-width: 420px) {
+    .modal {
+        .btn_exit {
+            display: flex;
+            align-items: center;
+            background-color: transparent;
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            position: fixed;
+            top: 6%;
+            left: 74%;
+            z-index: 10;
+            font-weight: 400;
+            font-size: 30px;
+            border-radius: 10px;
+            border: none;
+        }
+        .btn_ext{
+            position: relative;
+            bottom: 450px;
+            left: 30px;
+        }
+    }
+}
+@media(max-width: 350px) {
+    .modal {
+        .btn_exit {
+            display: flex;
+            align-items: center;
+            background-color: transparent;
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            position: fixed;
+            top: 6%;
+            left: 90%;
+            z-index: 10;
+            font-weight: 400;
+            font-size: 30px;
+            border-radius: 10px;
+            border: none;
+        }
+        .btn_ext{
+            position: relative;
+            bottom: 450px;
+            left: 5px;
+        }
+    }
+}

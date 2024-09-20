@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+.main {
+    .backblack {
+        background-color: #141414;
+    }
+
+
+    font-family: "Epilogue",
+    sans-serif;
+
+    .container {
+        margin: 0 auto;
+        max-width: 1180px;
+    }
+
+    .welcome {
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+
+    .h1__welcom {
+        font-family: "Epilogue", sans-serif;
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 103%;
+        letter-spacing: -0.04em;
+        color: #fff;
+    }
+
+    .p__welcom {
+        font-family: "Epilogue", sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 129%;
+        letter-spacing: -0.02em;
+        color: #fff;
+    }
+
+    .info {
+        padding-top: 40px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 70px;
+        flex-wrap: wrap;
+    }
+
+    .swipper__bootom {
+        padding-top: 20px;
+    }
+
+    .btn__swiper {
+        display: flex;
+        gap: 12px;
+    }
+
+    .about {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .about__h2 {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+        color: #1e2827;
+
+    }
+
+    .toptext {
+        max-width: 859px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: flex-end;
+        gap: 40px;
+
+    }
+
+    .aboutexts {
+
+        display: flex;
+        gap: 115px;
+        max-width: 1180px;
+    }
+
+    .aboutext {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 129%;
+        letter-spacing: -0.02em;
+        color: #141414;
+    }
+
+    .imagabout {
+        display: flex;
+        justify-content: right;
+        width: 100%;
+    }
+
+    .newwatches {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .h2new {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+        color: #1e2827;
+        padding-bottom: 80px;
+    }
+
+    .mininewtext {
+        padding-bottom: 8px;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 117%;
+        letter-spacing: 0.06em;
+        color: rgba(20, 20, 20, 0.4);
+    }
+
+    .imagenew {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .newimg1 {
+        width: 576px;
+        height: 422px;
+    }
+
+    .h2__sale {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+        color: #1e2827;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .back {
+        background-color: #FBFBFB;
+    }
+
+    .imagesales {
+        display: flex;
+        gap: 20px;
+    }
+
+    .imagesale {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .filling__sale {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        padding-bottom: 160px;
+    }
+
+    .mini_sale_text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 129%;
+        letter-spacing: -0.02em;
+        color: rgba(20, 20, 20, 0.5);
+        padding-bottom: 16px;
+    }
+
+    .sale__h3 {
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 105%;
+        letter-spacing: -0.02em;
+        color: #141414;
+        padding-bottom: 8px;
+    }
+
+    .pricesale {
+        display: flex;
+        padding-bottom: 40px;
+        gap: 8px;
+        align-items: center;
+    }
+
+    .price__text1 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 133%;
+        letter-spacing: -0.02em;
+        color: #141414;
+    }
+
+    .price__text2 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 117%;
+        letter-spacing: -0.02em;
+        text-decoration: line-through;
+        color: rgba(20, 20, 20, 0.5);
+
+    }
+
+    .description {
+        padding-top: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #141414;
+    }
+
+    .description__h3 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 133%;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: #141414;
+        padding-bottom: 17px;
+    }
+
+    .catalog {
+        padding-bottom: 80px;
+    }
+
+    .Cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .h2__catalog {
+        padding-top: 80px;
+        padding-bottom: 64px;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+        color: #1e2827;
+    }
+
+    .svq {
+        position: absolute;
+        right: 0px;
+    }
+
+    .img1 {
+        width: 892px;
+    }
+
+    .blocktext {
+        max-width: 370px;
+    }
+
+}
+
+@media(max-width: 1064px) {
+    .main {
+        .container {
+            margin: 0 auto;
+            max-width: 900px;
+        }
+
+        .imagabout {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .toptext {
+            padding-top: 20px;
+            max-width: 520px;
+        }
+
+        .about {
+            justify-content: center;
+        }
+
+        .img1 {
+            max-width: 800px;
+            box-sizing: border-box;
+        }
+
+        .imagesales {
+            display: flex;
+            gap: 20px;
+        }
+
+        .imagesale {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 10px;
+
+        }
+
+        .filling__sale {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            padding-bottom: 160px;
+        }
+
+        .imagenew {
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .newimg1 {
+            width: 342px;
+            height: 260px;
+        }
+
+        .newwatches {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        .watchtext {
+            width: 704px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .sale {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .blocktext {
+            max-width: 572px;
+        }
+    }
+
+
+}
+
+@media(max-width: 930px) {
+    .main {
+        .container {
+            margin: 0 auto;
+            max-width: 800px;
+        }
+
+        .about__h2 {
+            font-size: 35px;
+        }
+        .welcome{
+            gap: 20px;
+            flex-direction: column;
+        }
+        .info{
+            gap: 20px;
+        }
+    }
+
+}
+
+
+
+@media(max-width: 820px) {
+    .main {
+        .container {
+            margin: 0 auto;
+            max-width: 710px;
+        }
+
+        .img1 {
+            max-width: 704px;
+        }
+
+        .aboutexts {
+
+            display: flex;
+            gap: 35px;
+            max-width: 1180px;
+        }
+    }
+
+}
+
+@media(max-width: 720px) {
+    .main {
+        .container {
+            margin: 0 auto;
+            max-width: 610px;
+        }
+        .tictac{
+            width: 590px;
+            height: 310px;
+        }
+
+        .img1 {
+            max-width: 585px;
+            height: 365px;
+        }
+
+        .newimg1 {
+            width: 282px;
+            height: 200px;
+        }
+
+        .watchtext {
+            width: 585px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .aboutexts {
+            max-width: 585px;
+        }
+
+    }
+
+}
+
+@media(max-width: 600px) {
+    .main {
+        .container {
+            padding: 5px;
+            margin: 0 auto;
+            max-width: 500px;
+        }
+        .tictac{
+            width: 450px;
+            height: 240px;
+        }
+        .newimg1 {
+            width: 232px;
+            height: 150px;
+        }
+
+        .watchtext {
+            width: 485px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .saleimg5{
+            width: 235px;
+            height: 350px;
+        }
+        .saleimg{
+            width: 80px;
+            height: 80px;
+        }
+        .sale__h3 {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 105%;
+            letter-spacing: -0.02em;
+            color: #141414;
+            padding-bottom: 8px;
+        }
+        .blocktext {
+            max-width: 335px;
+        }
+        .aboutexts{
+            flex-wrap: wrap;
+        }
+        .toptext{
+            flex-wrap: wrap;
+        }
+        .img1 {
+            max-width: 405px;
+            height: 285px;
+        }
+        .h2new{
+            font-size: 32px;
+        }
+        .mininewtext{
+            font-size: 12px;
+        }
+        .h2__sale{
+            font-size: 32px;
+        }
+        .h2__catalog{
+            font-size: 32px;
+        }
+        .about__h2{
+            font-size: 32px;
+        }
+        .watchtext {
+            width: 480px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}
+
+@media(max-width: 495px) {
+    .main {
+        .container {
+            margin: 0 auto;
+            max-width: 360px;
+        }
+        .tic{
+            width: 296px;
+            height: 230px;
+        }
+        .tictac{
+            width: 345px;
+            height: 410px;
+        }
+        .h1__welcom{
+            font-size: 38px;
+        }
+        .newimg1 {
+            width: 335px;
+            height: 260px;
+        }
+        .watchtext {
+            width: 335px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .img1{
+            max-width: 335px;
+            height: 265px;
+        }
+    }
+}

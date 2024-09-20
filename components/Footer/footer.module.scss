@@ -1,0 +1,49 @@
+.footer{
+    
+    background: #1e2827;
+
+    .container{
+        max-width: 660px;
+        margin: 0 auto;
+    }
+    &__row{
+
+        padding-top: 104px;
+        display: flex;
+
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-bottom: 60px;
+    }
+    .menu{
+        
+        display: flex;
+        flex-direction: column;
+        
+        gap: 20px;
+    }
+    .text{
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #ccc;
+    }
+    .private{
+        display: flex;
+        align-items: flex-end;
+        gap: 18px;
+        height: 398px;
+    }
+    .private__text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 129%;
+        letter-spacing: -0.02em;
+        text-align: right;
+        color: #c6cdd1;
+    }
+    
+   
+
+}
